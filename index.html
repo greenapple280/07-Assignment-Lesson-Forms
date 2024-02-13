@@ -16,23 +16,28 @@
         <div class="container">
             <div class="login-form">
                 <h2>Sign In</h2>
-
                 <form action="" class="form__sing-in">
-                    <label for="email" class="label">Email or phone number</label>
-                    <input type="email" id="email" name="email" placeholder="sape-seo@mail.ru" required>
-                    <label for="password" class="label">Your password</label>
-                    <input type="password" id="password" name="password" minlength="8" required>
+                    <div class="box">
+                        <label for="email" class="label">Email or phone number</label>
+                        <input type="email" id="email" name="email" placeholder="sape-seo@mail.ru" required>
+                    </div>
+                    <div class="box">
+                        <label for="password" class="label password">Your password</label>
+                        <input type="password" id="password" name="password" minlength="8" value="Enter your password" required>
+                    </div>
                     <button type="submit" class="button">Sing In</button>
                     <a href="" class="link-pass" role="link">Forgot password?</a>
                 </form>
-
-                <label for="check-box">
-                <input class="check-box" type="checkbox" id="check-box" checked></input>
-                <span class="check-style"></span>
-                    Remember me
-                </label>
-                <p class="new-user">New to Netflix?<a href="#" class="new-user__link">Sing up now</a>.</p>
-            </div>
+                <div class="login-form__footer">
+                    <label for="check-box">
+                    <input class="check-box" type="checkbox" id="check-box" checked></input>
+                    <span class="check-style"></span>
+                     Remember me
+                    </label>
+                    <p class="new-user">New to Netflix?</p>
+                    <a href="#" class="new-user__link">Sing up now.</a>
+                </div>
+                </div>
         </div>
     </main>
 </body>

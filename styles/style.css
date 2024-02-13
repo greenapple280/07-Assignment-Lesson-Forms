@@ -19,6 +19,16 @@ body {
     align-items: center;
 }
 
+h2 {
+    font-size: 34px;
+    font-weight: 16px;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .header {
     padding: 20px;
     margin-bottom: 20px;
@@ -27,17 +37,76 @@ body {
 .container {
     max-width: 1220px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .login-form {
-    margin: 0 auto;
     background-color: black;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
-    max-width: 450px;
-    width: 100%;
-    padding: 60px;
+    justify-content: center;
+    width: 450px;
+    padding: 40px;
     gap: 16px;
+}
+
+.form__sing-in {
+    margin: 0 auto;;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    padding: 10px;
+    gap: 16px;
+}
+
+.box {
+    max-width: 314px;
+    height: 56px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    vertical-align: text-top;
+    border-radius: 6px;
+    border: 1px solid rgb(115, 101, 101);
+    padding: 5px 7px;
+}
+
+.password {
+    margin-right: 20px;
+}
+
+.button {
+    max-width: 314px;
+    height: 46px;
+    width: 100%;
+    padding: 5px 7px;
+    background-color: red;
+    border: 1px solid rgb(115, 101, 101);
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.link-pass {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.login-form__footer {
+    padding-left: 20px;
+}
+
+.new-user {
+    margin-top: 10px;
+}
+
+.new-user__link {
+    color: white;
+}
+
+.new-user__link:hover {
+    text-decoration: underline;
 }
